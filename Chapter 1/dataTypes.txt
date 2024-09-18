@@ -1,0 +1,8 @@
+int:
+Typically takes 4 bytes (32 bits) on most systems.
+
+char:
+Always takes 1 byte (8 bits), as per the C standard.
+
+float:
+Typically takes 4 bytes (32 bits) on most systems.
