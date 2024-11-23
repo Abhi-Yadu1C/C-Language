@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main(){
-     int i = 72;
-    int* j = &i; // j is a pointer pointing to i
-    printf("the address of i is %p\n", &i);
-    printf("the address of i is %p\n", j);
+    int i = 72;
+    int* j = &i; // J is pointer pointing to i
+    printf("The address of i is %p\n", &i);
+    printf("The address of i is %u\n", j);
 
-    
+    printf("The value address of i is %u\n", *j);
+    printf("The value address of i is %u\n", *(&i));
     return 0;
 }
